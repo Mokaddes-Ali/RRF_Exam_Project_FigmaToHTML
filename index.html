@@ -4,10 +4,137 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RRF_Exam_Project</title>
-    <link href="./src/output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="./src/output.css" rel="stylesheet">
+<link href="./assets/style.css" rel="stylesheet">
 </head>
 <body>
-    <h1 class="text-red-500">Hello Exam</h1>
+
+
+<div class="bg-[#FFD4D0]">
+    <!-- Start Navbar -->
     
+ <nav class=" mx-auto w-[80%] z-20">
+    <div class=" flex flex-wrap items-center justify-between p-4">
+    <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img src="./assets/images/Logo.png" class="h-12" alt="Logo">
+    </a>
+    <div class="flex md:order-2 space-x-2 md:space-x-0 rtl:space-x-reverse">
+        <button type="button" class="btn-text text-white hover:text-black bg-[#1F1F1F] hover:bg-yellow-400 focus:ring-4 focus:outline-none rounded-sm px-6 py-3 text-center">Let’s Talk</button>
+        <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+      </button>
+    </div>
+    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+        <div class="h-[146px] w-[146px] bg-[#FC3314] -mt-20 -mr-9 rounded-full"></div>
+      <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium md:space-x-2 md:flex-row md:mt-0 md:border-0">
+        <li>
+          <a href="#" class="block px-3 text4 text-[#1F1F1F]">About</a>
+        </li>
+        <li>
+            <a href="#" class="block px-3 text4 text-[#1F1F1F]">Services</a>
+        </li>
+        <li>
+            <a href="#" class="block  px-3 text4 text-[#1F1F1F]">Portfolio</a>
+        </li>
+        <li>
+            <a href="#" class="block px-3 text4 text-[#1F1F1F]">Blog</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+  </nav>
+    <!-- End Navbar -->
+   <!-- Start Hero -->
+<header class="h-auto mt-16">
+    <div class=" mx-auto w-[90%] lg:w-[80%] flex flex-col md:flex-row items-center">
+        <!-- Left Side: Text & Buttons -->
+        <div class="md:w-1/2 text-left space-y-6 mb-8 md:mb-0">
+            <h3 class="text2">UX Designer</h3>
+            <h1 class="text-5xl font-bold text-[#1F1F1F]">
+                Hi There, I’m <br> <span class="text-[#FC3314] block py-3">John Smith</span>
+            </h1>
+            <p class="mt-4 text5">Welcome to my portfolio of captivating <br> 
+                <span class="block py-1.5">
+                digital experiences. 
+                Explore my work and let's create something
+            </span>  extraordinary together.</p>
+
+          <!-- Buttons -->
+<div class="flex mb-12 space-x-6">
+    <a href="#">
+        <button type="button" class="btn-text text-white hover:text-black bg-[#1F1F1F] hover:bg-yellow-400 focus:ring-4 focus:outline-none rounded-sm px-6 py-3 text-center">Hire Me</button>
+    </a>
+    <a href="#">
+        <button type="button" class="btn-text text-[#1F1F1F] hover:text-black border border-[#1F1F1F] hover:bg-yellow-400 focus:ring-4 focus:outline-none rounded-sm px-6 py-3 text-center">Portfolio</button>
+    </a>
+</div>
+
+        </div>
+
+        <!-- Right Side: Image -->
+        <div class="w-full md:w-1/2 flex justify-center mt-10 md:-mt-16">
+            <img src="./assets/images/hero-right.png" alt="Hero Image" class="h-[480px] w-auto px-4 pt-4">
+        </div>
+    </div>
+</header>
+<!-- End Hero -->
+</div>
+
+<!-- Start About Me -->
+<section class="bg-[#1F1F1F]">
+    <div class="mx-auto w-[80%] py-14 md:py-10">
+        <div class="text-center">
+            <h2 class="text1 text-white">About Me</h2>
+            <p class="text5 text-[white] pt-5">
+                I'm John Smith, a UI/UX designer dedicated to crafting intuitive and visually stunning digital <br>
+                <span class="block py-1.5">
+                    experiences. With a passion for user-centric design, I transform ideas into functional and beautiful
+                </span> 
+                interfaces. Let's collaborate and shape the future of design together.
+            </p>
+        </div>
+
+        <!-- Card Grid (Centered) -->
+        <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 text-center items-center justify-center mt-10">
+            <!-- Card -->
+            <div class="flex flex-col p-6">
+                <div class="flex justify-center items-center gap-x-1">
+                    <p class="card-number">502</p>
+                </div>
+                <h4 class="text4 mb-1 text-white">Projects Done</h4>
+            </div>
+            <!-- End Card -->
+
+            <!-- Card -->
+            <div class="flex flex-col p-6">
+                <div class="flex justify-center items-center gap-x-1">
+                    <p class="card-number">10+</p>
+                </div>
+                <h4 class="text4 mb-1 text-white">Years of Experience</h4>
+            </div>
+            <!-- End Card -->
+
+            <!-- Card -->
+            <div class="flex flex-col p-6">
+                <div class="flex justify-center items-center gap-x-1">
+                    <p class="card-number">273+</p>
+                </div>
+                <h4 class="text4 mb-1 text-white">Clients Served</h4>
+            </div>
+            <!-- End Card -->
+        </div>
+        <!-- End Card Grid -->
+    </div>
+</section>
+<!-- End About Me -->
+
+
+   
 </body>
 </html>
