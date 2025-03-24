@@ -7,12 +7,20 @@
     @apply font-bold text-4xl leading-[150%] tracking-normal text-center;
     font-family: 'Montserrat', sans-serif;
   }
+  .hero-text {
+    @apply font-normal text-[20px] leading-[150%] tracking-normal;
+    font-family: 'Montserrat', sans-serif;
+  }
   .text2 {
-    @apply font-normal text-[20px] leading-[150%] tracking-normal text-[#1F1F1F];
+    @apply font-bold text-[20px] leading-[150%] tracking-normal;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .text3{
+    @apply font-normal text-[14px] leading-[150%] tracking-normal;
     font-family: 'Montserrat', sans-serif;
   }
   .text4 {
-    @apply font-bold text-[18px] leading-[150%] tracking-normal;
+    @apply font-bold text-[18px] leading-[130%] tracking-normal;
     font-family: 'Montserrat', sans-serif;
   }
   .text5 {
