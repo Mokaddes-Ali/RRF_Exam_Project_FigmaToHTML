@@ -28,6 +28,21 @@
     font-family: 'Montserrat', sans-serif;
   }
 
+  .text6{
+    @apply font-bold text-4xl leading-[150%] tracking-normal text-[#1F1F1F];
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .date-text{
+      @apply font-normal text-[12px] leading-[150%] tracking-[0%] text-[#1F1F1F];    
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .card-button-text{
+    @apply font-bold text-[12px] leading-[150%] tracking-[0%];    
+  font-family: 'Montserrat', sans-serif;
+}
+
   .btn-text{
     @apply font-bold text-base leading-[150%] tracking-normal;
     font-family: 'Montserrat', sans-serif;
@@ -37,23 +52,4 @@
     font-family: 'Montserrat', sans-serif;
     
   }
-
-  .color-red{
-    @apply text-[#FC3314];
-  }
-  .color-pink{
-    @apply text-[#FFD4D0];
-  }
-  .color-dark{
-    @apply text-[#1F1F1F];
-  }
-  .color-dark-gray{
-        @apply text-[#8D8D8D];
-    }
-    .color-medium-gray{
-        @apply text-[#E1E1E1];
-    }
-    .color-gray{
-        @apply text-[#F7F7F7];
-    }
 }
