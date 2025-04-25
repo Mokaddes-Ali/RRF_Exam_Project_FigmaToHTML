@@ -3454,6 +3454,11 @@
       width: 146px;
     }
   }
+  .lg\:w-\[336px\] {
+    @media (width >= 64rem) {
+      width: 336px;
+    }
+  }
   .lg\:w-\[472px\] {
     @media (width >= 64rem) {
       width: 472px;
@@ -3477,6 +3482,11 @@
   .lg\:w-auto {
     @media (width >= 64rem) {
       width: auto;
+    }
+  }
+  .lg\:max-w-\[765px\] {
+    @media (width >= 64rem) {
+      max-width: 765px;
     }
   }
   .lg\:grid-cols-3 {
